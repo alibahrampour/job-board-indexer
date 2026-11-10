@@ -1,0 +1,79 @@
+id,name,category,family,priority,confidence,endpoint_hint,status
+1,ADP,ATS,D,P4,low,JS-heavy career sites,todo
+2,ApplicantPro,ATS,C,P3,low,HTML listing pages,todo
+3,Ashby,ATS,A,P1,high,api.ashbyhq.com/posting-api/job-board/{board},implemented
+4,Avature,ATS,C,P3,low,Per-tenant custom HTML,todo
+5,BambooHR,ATS,B,P2,medium,{co}.bamboohr.com/careers/list (JSON used by career page),implemented
+6,BrassRing,ATS,D,P4,low,,todo
+7,Breezy HR,ATS,A,P1,medium,{co}.breezy.hr/json,implemented
+8,CareerPlug,ATS,C,P3,low,,todo
+9,Comeet,ATS,B,P2,low,Career page embeds job JSON,todo
+10,CSOD,ATS,D,P4,low,Cornerstone career sites,todo
+11,Dayforce,ATS,D,P4,low,,todo
+12,Deel,ATS,E,P5,low,Research needed,todo
+13,Dover,ATS,E,P5,low,Research needed,todo
+14,Eightfold AI,ATS,B,P2,low,Career sites call a JSON search endpoint,todo
+15,FirstStage,ATS,E,P5,low,Research needed,todo
+16,Freshteam,ATS,C,P3,low,{co}.freshteam.com/jobs,todo
+17,Gem.com,ATS,B,P2,low,jobs.gem.com pages load JSON,todo
+18,GoHire,ATS,C,P3,low,,todo
+19,Greenhouse,ATS,A,P1,high,boards-api.greenhouse.io/v1/boards/{token}/jobs  [IMPLEMENTED],implemented
+20,HiBob,ATS,D,P4,low,,todo
+21,HireBridge,ATS,E,P5,low,Research needed,todo
+22,HireHive,ATS,E,P5,low,Research needed,todo
+23,Hireology,ATS,C,P3,low,,todo
+24,HiringThing,ATS,C,P3,low,,todo
+25,iCIMS,ATS,C,P3,low,Per-tenant HTML; some expose JSON search,todo
+26,iSolvedHire,ATS,C,P3,low,,todo
+27,JazzHR,ATS,C,P3,medium,"applytojob.com pages, JSON-LD",todo
+28,Jobvite,ATS,C,P3,medium,jobs.jobvite.com/{co} HTML,todo
+29,JOIN.com,ATS,C,P3,medium,"join.com/companies/{co}, JSON-LD",todo
+30,Kula.ai,ATS,E,P5,low,Research needed,todo
+31,Lever.co,ATS,A,P1,high,api.lever.co/v0/postings/{company}?mode=json,implemented
+32,Manatal,ATS,E,P5,low,Research needed,todo
+33,Oracle Recruiting,ATS,B,P2,medium,/hcmRestApi/resources/latest/recruitingCEJobRequisitions,todo
+34,PageUp,ATS,C,P3,low,,todo
+35,Paradox,ATS,D,P4,low,,todo
+36,Paycom,ATS,D,P4,low,,todo
+37,Paycor,ATS,D,P4,low,,todo
+38,Paylocity,ATS,B,P2,low,Page embeds job JSON,todo
+39,Personio,ATS,A,P1,high,{co}.jobs.personio.de/xml,implemented
+40,Phenom People,ATS,D,P4,low,Per-tenant JS sites,todo
+41,Pinpoint,ATS,A,P1,medium,{co}.pinpointhq.com/postings.json,implemented
+42,Polymer,ATS,E,P5,low,Research needed,todo
+43,Recooty,ATS,E,P5,low,Research needed,todo
+44,Recruitee,ATS,A,P1,high,{co}.recruitee.com/api/offers/,implemented
+45,Rippling,ATS,B,P2,low,ats.rippling.com/{co}/jobs (embedded Next.js data),implemented
+46,Rival,ATS,E,P5,low,Research needed,todo
+47,SAP SuccessFactors,ATS,C,P3,low,Per-tenant career sites,todo
+48,SmartRecruiters,ATS,A,P1,high,api.smartrecruiters.com/v1/companies/{id}/postings,implemented
+49,talentReef,ATS,D,P4,low,,todo
+50,Taleo,ATS,C,P3,low,Legacy per-tenant HTML,todo
+51,Teamtailor,ATS,B,P2,medium,{co}.teamtailor.com/jobs.rss (public RSS),implemented
+52,Trakstar,ATS,C,P3,low,,todo
+53,TriNet,ATS,E,P5,low,Research needed,todo
+54,UltiPro,ATS,B,P2,low,UKG recruiting: JobBoardView JSON endpoints,todo
+55,WeRecruit,ATS,E,P5,low,Research needed,todo
+56,Workable,ATS,A,P1,medium,apply.workable.com/api/v1/widget/accounts/{sub},implemented
+57,Workday,ATS,B,P2,high,{tenant}.wd{N}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs (POST),implemented
+58,Zoho Recruit,ATS,C,P3,low,Zoho careers page,todo
+59,Niceboard,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+60,WP Job Manager,JOB_BOARD,A,P1,medium,Public RSS feed (?feed=job_feed) and optional WP REST,implemented
+61,JobKit,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+62,Jobboardly,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+63,Jobiqo,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+64,JBoard.io,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+65,JobBoardFire,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+66,SmartJobBoard,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+67,JobBoard.io,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+68,eJobBoard,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+69,Wiley Madgex,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+70,Talenetic,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+71,JobMount,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+72,CareerSiteCloud,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+73,JobBoard.com,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+74,Artha,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+75,jobboardsoftware.com,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+76,jobBoardHQ,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+77,Nodex,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
+78,ejobsitesoftware.com,JOB_BOARD,C,P3,low,Generic: sitemap + schema.org JobPosting JSON-LD,todo
